@@ -10,5 +10,5 @@ RUN cp /HelloWorld.war /usr/local/tomcat/webapps/HelloWorld.war
 #COPY import.sql /var/lib/jetty/webapps/onode/WEB-INF/classes/import.sql
 #COPY omodule-application-context.xml /var/lib/jetty/webapps/onode/WEB-INF/classes/app-contexts/omodule-application-context.xml
 
-#EXPOSE 8080
+EXPOSE 8080
 #CMD ["/bin/bash", "/jetty.sh run"]

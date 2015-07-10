@@ -1,4 +1,4 @@
-FROM docker.io/tomcat
+FROM platform/platformtomcat
 
 #ADD http://####.com/artifactory/maven-release-local/com/ca/platform/tas/tas/1.0.3.969/tas-1.0.3.969-package.zip /
 ADD HelloWorld.war /HelloWorld.war

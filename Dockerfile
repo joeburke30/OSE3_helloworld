@@ -1,6 +1,4 @@
-FROM registry.access.redhat.com/jboss-webserver-3/tomcat7-openshift
-#FROM platform/platformtomcat
-
+FROM docker.io/tomcat
 ADD HelloWorld.war /HelloWorld.war
 RUN cp /HelloWorld.war /usr/local/tomcat/webapps/HelloWorld.war
 
